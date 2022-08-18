@@ -5,7 +5,7 @@ const Footer = (props) => {
   return (
     <div className="ff">
       <h1>this is Footer</h1>
-      <p>{props.data1}</p>
+      <p style={props.clr}>{props.da}</p>
     </div>
   );
 };

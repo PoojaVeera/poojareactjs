@@ -3,10 +3,10 @@ import Header from "../header/header";
 import Footer from "../footer/footer";
 import Sidebar from "../sidebar/sidebar";
 
-const Layout = ({ children, data }) => {
+const Layout = ({ children, data, color }) => {
   return (
     <div>
-      <Header da={data} />
+      <Header da={data} color={color} />
       <div>
         <Sidebar />
         {children}

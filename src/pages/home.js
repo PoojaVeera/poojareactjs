@@ -1,9 +1,9 @@
 import React from "react";
-import Layout from "../compoents/layout/layout";
+import Layout from "../components/layout/layout";
 
 const Home = () => {
   return (
-    <Layout data="homepage">
+    <Layout data="homepage" color="red">
       <div>
         <p>this is home page</p>
       </div>
